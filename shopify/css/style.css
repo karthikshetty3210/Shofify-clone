@@ -1,0 +1,248 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+:root
+{
+    --header-bg:#fbf7ed;
+    --button-bg:#008060;
+   --menu: font color #42474c;
+   --dark:#004c3f;
+   --gray:#6b7177;
+   --icon:#c1f0d0;
+
+}
+.navbg
+{
+    padding: 17px 65px 17px 65px;
+    background-color: var(--header-bg);
+
+}
+.logo
+{
+    height: 37px;
+}
+.nav-item 
+{
+    margin: 0px 8px;
+}
+.btn-tff
+{
+    background-color: var(--button-bg);
+    color: #fff; 
+    border-color: var(--button-bg);
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin-left: 20px;
+}
+.btn-tff:hover
+{
+    background-color: var(--dark);
+}
+/* body
+{
+    font-family:shopifysans--medium ;
+} */
+@font-face{
+    font-family: shopifysans--bold;
+    src: url(../assets/fonts/ShopifySans--bold.woff2);
+}
+@font-face {
+    font-family: shopifysans--extrabold;
+    src: url(../assets/fonts/ShopifySans--bold\ \(1\).woff2);
+}
+@font-face {
+    font-family: shopifysans--medium;
+    src: url(../assets/fonts/ShopifySans--extrabold.woff2);
+}
+.dropdown-toggle::after
+{
+    display: none;
+}
+.fa-solid
+{
+    margin-left: 5px;
+    font-size: 12px;
+    
+}
+.dropdown-item:hover
+{
+    border-left: 3px solid var(--button-bg);
+}
+.dropdown-item
+{
+    border-left: 3px solid white;
+}
+/* header */
+.header
+{
+    padding: 110px 80px 50px 80px;
+    height: 90vh;
+    background-color: var(--header-bg);
+
+}
+.h-title
+{
+    font-weight: bolder;
+    font-size: 3em;
+    color:var(--dark);
+    line-height: 1.3em;
+    letter-spacing: -2px;
+    font-family:shopifysans--extrabold ;
+}
+.h-desc
+{
+    font-size: 21px;
+    color: var(--gray);
+}
+.h-desc-sm
+{
+    font-size: 13px;
+    color: var(--gray);
+}
+.search
+{
+    display: flex;
+    border-radius: 8px;
+}
+.box
+{
+    width: 320px;
+    height: 53px;
+    border-radius: 8px;   
+}
+.btn-lg:hover
+{
+    background-color: var(--dark);
+}
+.btn-lg
+{
+    border-radius: 6px;
+    height: 50px;
+    margin-top: 2px;
+}
+.section-1
+{
+    padding: 100px 80px 40px 80px;
+    background-color: var(--dark);
+    color: white;
+}
+.card
+{
+    width: 210px;
+    height: 400px;
+}
+.t-title
+{
+    margin-top: 10px;
+    margin-bottom: -1px;
+    font-weight: bold;
+
+}
+.h2
+{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.a 
+{
+    display: flex;
+}
+.col1
+{
+    margin-right: 10px;
+}
+.icons
+{
+    color: var(--icon);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.main-h1
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.main-p
+{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.h3
+{
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.s3-b
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark);
+    margin-bottom: 130px;
+    text-decoration: none;
+}
+.section-3
+{
+    padding: 100px 80px 40px 80px;
+}
+.s3-img
+{
+    width: 550px;
+    height: 500px;
+}
+footer {
+    padding: 30px 80px 30px 80px;
+    background-color:var(--dark);
+    color: white;
+}
+footer .col1 .a1 {
+    display: flex;
+    list-style-type: none;
+}
+footer .col1 .a1 li{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer .col1 ul
+{
+    margin-left: -20px;
+}
+footer .col ul
+{
+    list-style-type: none;
+}
+footer .col .b
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+footer .col
+{
+    margin-left: -20px;
+}
+footer .col2 .m
+{
+    display: flex;
+    align-items: left;
+    margin-left: -20px;
+}
+footer .col2 ul li
+{
+    margin-right: 20px;
+}
+footer .col2 ul li .i
+{
+    height: 33px;
+}
+footer .row .col2
+{
+    display: flex;
+    align-items: left;
+}
+footer .row .col3
+{
+    display: flex;
+    align-items: left;
+    margin-left: 500px;
+}
+
+
